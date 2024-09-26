@@ -1,0 +1,90 @@
+#creeper{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.oeil-g{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.oeil-d{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+}
+
+.bouche-g{
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.bouche-m-h{
+    background-color: black;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+.bouche-m-b{
+    background-color: black;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+.bouche-d{
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+
+#creeper:hover{
+    cursor: pointer;
+    background-color: lightskyblue;
+    transition: 0.4s ease-out;
+    border-radius: 200px;
+}
+
+#creeper:hover .bouche-g{
+    transition: 0.4s ease-out;
+    height: 100px;
+}
+
+#creeper:hover .bouche-m-h{
+    transition: 0.4s ease-out;
+    top: 250px; 
+    height: 50px;
+}
+
+#creeper:hover .bouche-m-b{
+    transition: 0.4s ease-out;
+    top: 350px;
+    height: 50px;
+}
+
+#creeper:hover .bouche-d{
+    transition: 0.4s ease-out;
+    height: 100px;
+}
